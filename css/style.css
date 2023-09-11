@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&display=swap');
+
+  @import url('https://fonts.googleapis.com/css2?family=Alex+Brush&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+ h1, p{ animation: fadeIn 5s; }
+
+@keyframes fadeIn {
+    0% { opacity: 0; }
+    66% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+  @keyframes fadeIn2{
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+img{ animation:  fadeIn2 4s;}
+
+body{
+    margin-top: 0px, 0px, 0px, 0px;
+}
+.hero{
+    position: relative;
+    margin-top: 200px;
+
+}
+img{
+    position: absolute;
+    display: block;
+    margin-left: auto !important; 
+    margin-right: auto !important; 
+    left: 0 !important; 
+    right: 0 !important; 
+    text-align: center;
+    width: 550px;
+    margin-top: 50px;
+
+
+
+}
+h1{
+    position: absolute !important;
+    display: block !important;
+    left: 0 !important; 
+    right: 0 !important; 
+    margin-left: auto !important; 
+    margin-right: auto !important; 
+    margin-top: 90px;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+font-weight: 400;
+
+
+}
+
+.logo{
+    position: absolute; 
+    width: 500px; 
+    height: 500px;
+    left: 0; 
+    right: 0; 
+    margin-left: auto; 
+    margin-right: auto; 
+    margin-top: 0;
+}
+p{
+    position: absolute !important;
+    display: block !important;
+    left: 0 !important; 
+    right: 0 !important; 
+    margin-left: auto !important; 
+    margin-right: auto !important; 
+    margin-top: 400px;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+font-weight: 700;
+color: #606060;
+
+
+
+}
+
+@media (max-width: 900px){
+.logo{
+    width: 400px; 
+    height: 400px;
+    margin-top: 30px;
+}
+img{
+    margin-top: 100px;
+    width: 400px;
+}
+}
+
+
+@media (max-width: 755px){
+    .hero{
+        position: relative;
+        margin-top: 100px;
+    
+    }
+    img{
+        width: 300px;
+    }
+    .logo{
+        width: 300px;
+        height: 300px;
+    }
+
+    p{
+        margin-top: 300px;
+    }
+}
+
